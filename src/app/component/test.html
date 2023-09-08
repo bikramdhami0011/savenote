@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box {
+            width: 300px;
+            height: 150px;
+            border: 10px solid #333;
+            padding: 20px;
+            margin: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        /* Using background-clip with different values */
+        .border-box {
+            background-color: #ff5733;
+            background-clip: border-box;
+            color: white;
+        }
+
+        .padding-box {
+            background-color: #33ff57;
+            background-clip: padding-box;
+        }
+
+        .content-box {
+            background-color: #5733ff;
+            background-clip: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box border-box">
+        border-box
+    </div>
+    <div class="box padding-box">
+        padding-box
+    </div>
+    <div class="box content-box">
+        content-box
+    </div>
+</body>
+</html>

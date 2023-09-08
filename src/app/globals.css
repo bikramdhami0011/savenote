@@ -1,0 +1,15 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+body{
+    background-color:rgb(10, 10, 10);
+    color: white;
+    /* color: black; */
+    margin-left: 10px;
+    /* background-image: url("https://images.pexels.com/photos/1694000/pexels-photo-1694000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+
+    position: sticky;
+   background-attachment: fixed;
+   object-fit: cover;
+}
