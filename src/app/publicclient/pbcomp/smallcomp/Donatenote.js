@@ -12,7 +12,7 @@ const Donatenote = () => {
     console.log(pdf)
     const formData = new FormData();
     formData.set("file", pdf);
-    const post = await fetch("http://localhost:3000/publicclient/home/pdfserver", {
+    const post = await fetch("/publicclient/home/pdfserver", {
       method: "POST",
       body: formData
     })
@@ -27,7 +27,7 @@ const Donatenote = () => {
 
   }
   const GetPDF = async () => {
-    const getpdss = await fetch("http://localhost:3000/publicclient/home/pdfserver", {
+    const getpdss = await fetch("/publicclient/home/pdfserver", {
       method: "GET",
 
 

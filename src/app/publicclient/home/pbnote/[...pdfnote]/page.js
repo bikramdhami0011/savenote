@@ -12,7 +12,7 @@ const PDFpage =({params}) => {
   
    
   const  GetPDF=async()=>{
-    const getpdss=await fetch("http://localhost:3000/publicclient/home/pdfserver",{
+    const getpdss=await fetch("/publicclient/home/pdfserver",{
         method:"GET",
         
 
