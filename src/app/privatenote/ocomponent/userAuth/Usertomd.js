@@ -1,0 +1,1 @@
+export const UsercontoMd="mongodb+srv://bikramdhami296:bikramdhami@cluster0.7zwsahn.mongodb.net/Userauth?retryWrites=true&w=majority"
