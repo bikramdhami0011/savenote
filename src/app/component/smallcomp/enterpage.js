@@ -26,7 +26,7 @@ const Enterpage = () => {
           Public Note
         </Link>
         <p></p>
-        <Link href="../../privatenote/prihome" className={styles.gradientButton}>
+        <Link href="../../privatenote/prihome/signinup/signin" className={styles.gradientButton}>
           Private Note
         </Link>
       </div>
