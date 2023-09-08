@@ -12,7 +12,7 @@ const Donatenote = () => {
     console.log(pdf)
     const formData = new FormData();
     formData.set("file", pdf);
-    const post = await fetch("/publicclient/home/pdfserver", {
+    const post = await fetch("publicclient/home/pdfserver", {
       method: "POST",
       body: formData
     })
