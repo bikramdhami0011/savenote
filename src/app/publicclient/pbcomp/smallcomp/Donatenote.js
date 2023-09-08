@@ -27,7 +27,7 @@ const Donatenote = () => {
 
   }
   const GetPDF = async () => {
-    const getpdss = await fetch("/publicclient/home/pdfserver", {
+    const getpdss = await fetch("publicclient/home/pdfserver", {
       method: "GET",
 
 
